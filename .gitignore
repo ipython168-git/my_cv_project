@@ -1,0 +1,217 @@
+# perference
+Projects/
+__pycache__/
+**/__pycache__/
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.ssh/
+**/.ssh/
+setup_opend.sh
+profile_results.prof
+*.xlsx
+FutuOpenD.xml
+
+data/* 
+
+# 想保留 data/user 成個 folder 嘅結構
+!data/user/
+!data/price/
+!data/test.py
+!data/user/sample.xlsx
+
+# ============================================
+# Python 標準忽略規則
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# Scrapy stuff
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.envrc
+.venv
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE - PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# IDE - VS Code
+.vscode/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Ruff
+.ruff_cache/
+
+# PyPI configuration file
+.pypirc
+
+# ============================================
+# Colab 特別檔案（修正版）
+# ============================================
+
+# Colab 自動生成嘅檔案
+sample_data/
+
+# Colab notebook 檢查點
+#.ipynb_checkpoints/
+#**/.ipynb_checkpoints/
+
+# 大型壓縮檔案（建議用檔案大小限制代替）
+# *.zip
+# *.tar.gz
+# *.rar
+# *.7z
+
+# 大型模型檔案（建議上傳到 Hugging Face / Google Drive）
+# 如果一定要在 GitHub，建議：
+# models/*.h5
+# models/*.pth
+# models/*.pt
+
+# 訓練過程檔案 - 通常不上傳
+logs/
+runs/
+wandb/
+tensorboard/
+mlruns/
+
+# ============================================
+# 數據科學專案特別規則（智能忽略）
+# ============================================
+
+# 臨時/中間檔案
+.checkpoints/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# 大型數據檔案 - 用檔案大小篩選更好
+# 建議在代碼中處理，不要在這裡忽略所有
+
+# Google Drive 掛載點（Colab 特定）
+/content/drive
+drive/
+
+# ============================================
+# 建議：按項目類型調整
+# ============================================
+
+# 如果是庫/包項目，忽略測試數據
+# data/test/
+# data/raw/
+
+# 如果是應用項目，保留配置文件但忽略敏感數據
+# config/local.yaml
+# config/secrets.yaml
